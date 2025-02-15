@@ -1,0 +1,61 @@
+object Form2: TForm2
+  Left = 257
+  Height = 338
+  Top = 250
+  Width = 459
+  Caption = 'Image Comparison'
+  ClientHeight = 338
+  ClientWidth = 459
+  object StatusBar1: TStatusBar
+    Left = 0
+    Height = 23
+    Top = 315
+    Width = 459
+    Panels = <>
+  end
+  object PairSplitter1: TPairSplitter
+    Left = 0
+    Height = 315
+    Top = 0
+    Width = 459
+    Align = alClient
+    ParentShowHint = False
+    Position = 233
+    object PairSplitterSide1: TPairSplitterSide
+      Cursor = crArrow
+      Left = 0
+      Height = 315
+      Top = 0
+      Width = 233
+      ClientWidth = 233
+      ClientHeight = 315
+      object ImageLeft: TImage
+        Left = 0
+        Height = 315
+        Top = 0
+        Width = 233
+        Align = alClient
+        OnMouseDown = ImageLeftMouseDown
+        OnMouseMove = ImageLeftMouseMove
+        OnMouseWheel = ImageLeftMouseWheel
+        OnPaint = ImageLeftPaint
+      end
+    end
+    object PairSplitterSide2: TPairSplitterSide
+      Cursor = crArrow
+      Left = 238
+      Height = 315
+      Top = 0
+      Width = 221
+      ClientWidth = 221
+      ClientHeight = 315
+      object ImageRight: TImage
+        Left = 0
+        Height = 315
+        Top = 0
+        Width = 221
+        Align = alClient
+      end
+    end
+  end
+end
