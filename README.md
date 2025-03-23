@@ -18,8 +18,8 @@ Processed Image (Left) vs. Original Image (Right)
 ![Comparison](https://github.com/user-attachments/assets/f8f9afa9-58ea-4cb0-a07f-224487e26b84)
 
 ## Building from source
-WIP 
-> PS: Help me write this building from source section, as this project uses some external libraries ([JPPack](https://github.com/jackdp/JPPack))
+WIP
+> PS: Help me write this section, as this project uses some external libraries ([JPPack](https://github.com/jackdp/JPPack))
 
 # License
 This project is licensed under the [MIT license](https://github.com/theonlyasdk/jpeg-artifact-remover/blob/main/LICENSE).
